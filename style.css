@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 20px;
 }
 
@@ -19,7 +19,8 @@ body {
 }
 .main-container .sedan-container {
   background-color: hsl(31, 77%, 52%);
-  min-height: 300px;
+  /* min-height: 550px; */
+  padding: 35px;
 }
 .main-container .sedan-container img {
   margin: 25px 20px;
@@ -34,8 +35,9 @@ body {
   margin: 20px 20px;
   color: white;
   letter-spacing: 2px;
-  width: 71%;
+  /* width: 71%; */
   line-height: 1.6;
+  font-weight: 500;
 }
 .main-container .sedan-container button {
   margin: 30px 20px;
@@ -43,13 +45,68 @@ body {
   padding: 15px 30px;
   color: hsl(31, 77%, 52%);
   border-radius: 20px;
-  font-size: 18px;
+  font-size: 15px;
+  font-weight: 700;
 }
 .main-container .suv-container {
   background-color: hsl(184, 100%, 22%);
-  min-height: 300px;
+  /* min-height: 300px; */
+  padding: 35px;
+}
+.main-container .suv-container img {
+  margin: 25px 20px;
+}
+.main-container .suv-container h1 {
+  font-family: Big Shoulders Display;
+  margin: 5px 20px;
+  color: white;
+  font-size: 45px;
+}
+.main-container .suv-container p {
+  margin: 20px 20px;
+  color: white;
+  letter-spacing: 2px;
+  /* width: 71%; */
+  line-height: 1.6;
+  font-weight: 500;
+}
+.main-container .suv-container button {
+  margin: 30px 20px;
+  border: none;
+  padding: 15px 30px;
+  color: hsl(184, 100%, 22%);
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 700;
 }
 .main-container .luxury-container {
   background-color: hsl(179, 100%, 13%);
-  min-height: 300px;
+  /* min-height: 300px; */
+  padding: 35px;
+}
+.main-container .luxury-container img {
+  margin: 25px;
+}
+.main-container .luxury-container h1 {
+  font-family: Big Shoulders Display;
+  margin: 5px 20px;
+  color: white;
+  font-size: 45px;
+}
+.main-container .luxury-container p {
+  margin: 20px 20px;
+  color: white;
+  letter-spacing: 2px;
+  /* width: 71%; */
+  line-height: 1.6;
+  font-weight: 500;
+}
+.main-container .luxury-container button {
+  margin: 30px 20px;
+  border: none;
+  padding: 15px 30px;
+  color: hsl(179, 100%, 13%);
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 700;
 }
