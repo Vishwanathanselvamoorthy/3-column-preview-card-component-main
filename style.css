@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+.main-container .sedan-container {
+  background-color: hsl(31, 77%, 52%);
+  min-height: 300px;
+}
+.main-container .sedan-container img {
+  margin: 25px 20px;
+}
+.main-container .sedan-container h1 {
+  font-family: Big Shoulders Display;
+  margin: 5px 20px;
+  color: white;
+  font-size: 45px;
+}
+.main-container .sedan-container p {
+  margin: 20px 20px;
+  color: white;
+  letter-spacing: 2px;
+  width: 71%;
+  line-height: 1.6;
+}
+.main-container .sedan-container button {
+  margin: 30px 20px;
+  border: none;
+  padding: 15px 30px;
+  color: hsl(31, 77%, 52%);
+  border-radius: 20px;
+  font-size: 18px;
+}
+.main-container .suv-container {
+  background-color: hsl(184, 100%, 22%);
+  min-height: 300px;
+}
+.main-container .luxury-container {
+  background-color: hsl(179, 100%, 13%);
+  min-height: 300px;
+}
