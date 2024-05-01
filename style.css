@@ -21,6 +21,7 @@ body {
   background-color: hsl(31, 77%, 52%);
   /* min-height: 550px; */
   padding: 35px;
+  border-radius: 10px 10px 0px 0px;
 }
 .main-container .sedan-container img {
   margin: 25px 20px;
@@ -35,14 +36,16 @@ body {
   margin: 20px 20px;
   color: white;
   letter-spacing: 2px;
-  /* width: 71%; */
+  /* font-size: 30px; */
+  width: 100%;
+
   line-height: 1.6;
   font-weight: 500;
 }
 .main-container .sedan-container button {
   margin: 30px 20px;
   border: none;
-  padding: 15px 30px;
+  padding: 15px 40px;
   color: hsl(31, 77%, 52%);
   border-radius: 20px;
   font-size: 15px;
@@ -66,14 +69,14 @@ body {
   margin: 20px 20px;
   color: white;
   letter-spacing: 2px;
-  /* width: 71%; */
+
   line-height: 1.6;
   font-weight: 500;
 }
 .main-container .suv-container button {
   margin: 30px 20px;
   border: none;
-  padding: 15px 30px;
+  padding: 15px 40px;
   color: hsl(184, 100%, 22%);
   border-radius: 20px;
   font-size: 15px;
@@ -83,6 +86,7 @@ body {
   background-color: hsl(179, 100%, 13%);
   /* min-height: 300px; */
   padding: 35px;
+  border-radius: 0px 0px 10px 10px;
 }
 .main-container .luxury-container img {
   margin: 25px;
@@ -97,16 +101,50 @@ body {
   margin: 20px 20px;
   color: white;
   letter-spacing: 2px;
-  /* width: 71%; */
   line-height: 1.6;
   font-weight: 500;
 }
 .main-container .luxury-container button {
   margin: 30px 20px;
   border: none;
-  padding: 15px 30px;
+  padding: 15px 40px;
   color: hsl(179, 100%, 13%);
   border-radius: 20px;
   font-size: 15px;
   font-weight: 700;
+}
+@media only screen and (min-width: 1024px) {
+  body {
+    height: 100vh;
+  }
+  .main-container {
+    flex-direction: row;
+  }
+  .main-container .sedan-container {
+    border-radius: 20px 0px 0px 20px;
+    height: 500px;
+    position: relative;
+  }
+  .main-container .suv-container {
+    border-radius: 0px;
+    height: 500px;
+    position: relative;
+  }
+  .main-container .luxury-container {
+    border-radius: 0px 20px 20px 0px;
+    height: 500px;
+    position: relative;
+  }
+  .main-container .sedan-container button {
+    position: absolute;
+    bottom: 0;
+  }
+  .main-container .suv-container button {
+    position: absolute;
+    bottom: 0;
+  }
+  .main-container .luxury-container button {
+    position: absolute;
+    bottom: 0;
+  }
 }
