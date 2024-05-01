@@ -19,10 +19,10 @@ The Car Rental Website is a platform designed to help users explore and rent dif
 
 ## Screenshots
 
-## Mobile UI 📱
+- Mobile UI 📱
 ![image](https://github.com/Vishwanathanselvamoorthy/3-column-preview-card-component-main/assets/147639866/fdef30f5-4d4e-47dc-84d9-4a50bbdbae96)
 
-## Desktop UI 🖥️
+- Desktop UI 🖥️
 ![image](https://github.com/Vishwanathanselvamoorthy/3-column-preview-card-component-main/assets/147639866/a4621ac5-23a5-4d98-8b38-2295340245e5)
 
 
