@@ -11,10 +11,19 @@ The Car Rental Website is a platform designed to help users explore and rent dif
 - **Responsive Design:** 📱 The website is optimized for various devices ensuring a seamless experience across desktops, tablets, and smartphones.
 
 ## Tech Stack
-- HTML5
-- CSS3
-- Google Fonts API
+- HTML5 🌐
+- CSS3 🎨
 
 ## Project Link
 - [Car Rental Website](https://3-column-preview-card-component-main-liard.vercel.app/)
+
+## Screenshots
+
+## Mobile UI 📱
+![image](https://github.com/Vishwanathanselvamoorthy/3-column-preview-card-component-main/assets/147639866/fdef30f5-4d4e-47dc-84d9-4a50bbdbae96)
+
+## Desktop UI 🖥️
+![image](https://github.com/Vishwanathanselvamoorthy/3-column-preview-card-component-main/assets/147639866/a4621ac5-23a5-4d98-8b38-2295340245e5)
+
+
 
